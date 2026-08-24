@@ -15,7 +15,7 @@
 - [x] Goal → Plan → Human Approval → Discovery → Research → Draft → Review → Copy
 - [x] 外部送信Actionが存在しない
 - [x] 5 screenshots from the same Production deployment
-- [ ] Gitleaks directory / staged / history scan
+- [x] Gitleaks directory / staged / history scan
 
 ## Production Evidence
 
@@ -25,7 +25,7 @@
 | Deployment URL | https://ai-sales-lead-discovery-agent-aowpf2bgi.vercel.app |
 | Deployment ID | `dpl_FFAjW4T85pv1783jXNa43Dv1i2Wn` |
 | 検証・撮影日時 | 2026-08-25 01:11〜01:13 JST |
-| Git commit | `{{GIT_COMMIT}}` |
+| Git commit | `fb110cefa0f464e81ab11cfd121064d9a3a22e29` |
 
 ## Browser Checks
 
@@ -46,7 +46,7 @@
 | Prompt Injection | Web文章をUntrusted Dataとして隔離 | Pass（自動テスト） |
 | SSRF | localhost/private/metadata/IPv4-mapped IPv6/unsafe URLを拒否 | Pass（自動テスト） |
 | CSP | frame-ancestors none、base-uri self、form-action self、Productionでunsafe-evalなし | Pass（Production response） |
-| Secrets | Gitleaks finding 0 | Directory scan Pass、staged/historyはGit作成後に実施 |
+| Secrets | Gitleaks finding 0 | Pass（directory / staged / history） |
 
 ## Screenshot Artifacts
 
