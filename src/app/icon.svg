@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">AI営業リード発掘エージェント</title>
+  <desc id="desc">ターゲット、建物、AIノードを組み合わせたアイコン</desc>
+  <defs>
+    <linearGradient id="g" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#187C73"/>
+      <stop offset="1" stop-color="#0B4D48"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#E8F4F1"/>
+  <circle cx="32" cy="29" r="20" fill="none" stroke="url(#g)" stroke-width="4"/>
+  <circle cx="32" cy="29" r="12" fill="none" stroke="#46A79B" stroke-width="3"/>
+  <circle cx="32" cy="29" r="4" fill="#0B625B"/>
+  <path d="M21 52V37l11-6 11 6v15H21Z" fill="#fff" stroke="#164F4A" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M27 52V42h10v10M25 39h2m4 0h2m4 0h2" stroke="#164F4A" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="13" cy="17" r="3" fill="#F0A43A"/>
+  <circle cx="51" cy="14" r="3" fill="#F0A43A"/>
+  <circle cx="53" cy="35" r="3" fill="#F0A43A"/>
+  <path d="m15.5 18.5 8 5M48.3 16.1l-8.2 6.4M50 34l-9.8-2.6" stroke="#F0A43A" stroke-width="2" stroke-linecap="round"/>
+</svg>
