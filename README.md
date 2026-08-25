@@ -107,7 +107,27 @@ npm run verify
 
 ## Production Screenshots
 
-本番アプリから取得した5画面は [`docs/screenshots`](docs/screenshots/README.md) に収録しています。
+Vercel Productionへ公開した実アプリから取得した5画面です。撮影条件とSHA-256は [`docs/screenshots`](docs/screenshots/README.md) に記録しています。
+
+### 1. ICP / Goal設定
+
+![AI営業リード発掘エージェントのICP・営業Goal設定画面](./docs/screenshots/01-icp-goal.png)
+
+### 2. Agent Plan
+
+![AI営業リード発掘エージェントのAgent Plan画面](./docs/screenshots/02-agent-plan.png)
+
+### 3. Lead候補一覧
+
+![AI営業リード発掘エージェントのLead候補一覧画面](./docs/screenshots/03-lead-candidates.png)
+
+### 4. Company Research + Evidence
+
+![AI営業リード発掘エージェントの企業調査・Evidence画面](./docs/screenshots/04-company-research-evidence.png)
+
+### 5. Approach Draft
+
+![AI営業リード発掘エージェントのApproach Draft・Human Review画面](./docs/screenshots/05-approach-draft.png)
 
 ## Security / Limitations
 
